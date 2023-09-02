@@ -1,0 +1,573 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+body {
+    background-color: #f1f1f1;
+    display: block;
+}
+
+.wrapper {
+    width: 1338px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    background-color: rgba(127, 255, 212, 0);
+
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+ 
+}
+.menu  {
+    width: 15%;
+    background-color: rgba(159, 223, 225, 0.877);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: -5px 5px 4px 3px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(85, 88, 112);
+    font-size: 13px;
+    display: flex;
+    padding: 15px 20px 20px;
+    border-radius: 5px;
+    align-items: center;
+    padding-inline: 1px;
+    
+}
+
+/*test mexendo no texto do spam    pode ter dado certo afastou texto do icone*/
+.menu span {
+    padding-left: 9px;
+}
+
+.menu a:hover {
+    color: rgb(4, 5, 5);
+    background-color: rgb(226, 218, 216);
+    transition: 500ms linear; 
+    margin: 0px;
+}
+
+.menu li {
+    list-style: none;
+    padding-top: 16px;
+    
+}
+
+ 
+.menu ul {
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px; 
+    margin-top: 0px;
+} 
+
+
+
+
+
+.header01 {
+    min-height: 300px;
+    background-image: url("https://4297949128.cbaul-cdnwnd.com/82faf782079840e8395524ad446f9f9c/200000003-0395003953/banner-sobre.jpg?ph=4297949128");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.content01 {
+    background-color: rgb(252, 252, 252);
+    min-height: 700px;
+    padding: 20px;
+    background-image: url("https://images.unsplash.com/photo-1530293959042-0aac487c21e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMGFuZCUyMHdoaXRlfGVufDB8fDB8fHww&w=1000&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+
+.discricao h1 {
+    margin: 63px  0px;
+}
+
+.text-alinhar-874{
+    text-align: center;
+}
+
+.discricao a{
+    display: flex;
+    text-decoration: none;
+    color: #296f75;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+/*-----------RODA PE--------------*/
+.footer {
+    background-color: rgba(242, 245, 242, 0.61);
+    min-height: 100px;
+    
+    
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.leis ul {
+    list-style: none;
+    margin: 5px 5px 5px;
+    padding-top: 5px;
+    padding: 7px;
+     
+}
+
+.leis li {
+    padding: 2px;
+    margin: 0px ;
+    font-size: small;
+    
+}
+
+footer .redes img {
+    width: 30px;
+    padding: 5px 15px;
+}
+.leis a{
+    text-decoration: none;
+    color:rgb(85, 88, 112);
+    
+}
+.leis {
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    
+}
+
+footer .redes {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.footer-container .redes img:hover {
+    background-color: rgba(159, 223, 225, 0.877);
+    border-radius: 45px ;
+    transition: 300ms linear; 
+    margin: 5px;
+}
+
+.footer-container .leis a:hover {
+    color: black;
+    transition: 500ms linear;
+}
+
+
+
+
+.direitos{
+    border-top: 2px solid rgba(159, 223, 225, 0.5);
+}
+
+.direitos span {
+    font-size: small;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(85, 88, 112);
+    
+}
+
+/*-----------pagina abaut--------------------- */
+
+.content02 {
+    background-color: white;
+    min-height: 700px;
+    padding: 20px;
+}
+
+
+.header02 {
+    min-height: 300px;
+}
+
+.Sobre-nos p {
+    font-size: 17px;
+    padding: 5px;
+    margin: 0px 0px 25px;
+
+}
+
+.Sobre-nos h3 {
+    margin: 13px 5px 0px;
+    color: rgb(85, 88, 112);
+}
+
+#sbn {
+    padding: 30px 0px 30px;
+}
+
+.list01 h3 {
+    color:rgb(85, 88, 112);
+}
+
+.list01 ul {
+    padding-left: 18px;
+}
+
+.header02 {
+    background-image: url("https://helioprint.com.br/wp-content/uploads/2018/04/como-atrair-pacientes-para-a-clinica-900x365.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+
+/*-------------------Pagina contato-----------*/
+
+.content03 {
+    background-color: white;
+    min-height: 700px;
+    padding: 20px;
+    
+}
+
+.header03 {
+    min-height: 300px;
+    background-image: url("https://wp.hiperpbx.com/br/wp-content/uploads/sites/13/2013/10/HIPER-PBX-web-banner-home-callcenter.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.fle-test{
+    display: flex;
+    background-color: #eef1f1;
+    
+    border: 1px solid rgba(159, 223, 225, 0.877);
+    color: #5a6566;
+    height: 250px;
+    width: 200px;
+    margin: 25px;
+    display: inline;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: -4px -4px 7px 0px rgba(0,0,0,0.1);
+    
+}
+.fle-test h2 {
+    font-weight: 100;
+}
+
+.fle-test:hover.fle-test{
+    border-radius: 20px;
+    background: linear-gradient(315deg, lightblue, whitesmoke);
+    box-shadow: -6px -6px 12px gray, 6px 6px 12px whitesmoke;
+    transition: all 0.5s;
+    transform: translateX(-10px);
+}
+/*
+.fle-test span {
+    display: flex;
+    justify-content: center;
+    
+}
+*/
+.icons {
+    display: flex;
+    flex-direction: column;
+    padding-top: 28px;
+}
+
+
+.money {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.cards span{
+    font-size: 2.1em;
+}
+.icons h2 {
+    font-size: 20px;
+    margin-top: 0px;
+}
+/*          button            */
+
+.button-card-1  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    
+    margin-top: 0px;
+    
+   
+    
+}
+.button-card-1 button {
+    border-radius: 30px;
+    
+}
+.button-card-1 a {
+    text-decoration: none;
+    color: black;
+    
+    
+   
+}
+button{
+    padding: 5px 10px;
+    font-size: 15px;
+  
+    
+}
+
+.fle-test .button-card-1 button:hover {
+   
+    background-color: rgba(159, 223, 225, 0.877);
+    transition: 800ms linear; 
+    
+}
+
+/*------especialização----------*/
+
+.content03{
+    background-image: url("https://i.pinimg.com/originals/be/1c/74/be1c744020611aa8346c5a479355c06c.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.especialização{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    
+    
+}
+.especialização .especial1:hover {
+    transition: all 0.5s;
+    transform: translateY(-10px);
+}
+
+.especialização .especial1 {
+    display: flex;
+    border: 1px solid rgba(159, 223, 225, 0.877);
+    width: 150px;
+    height: 100px;
+    margin: 15px;
+    border-radius: 10px;
+    text-align: center;
+    flex-direction: column;
+    color: #5a6566;
+    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.1);
+    
+}
+
+.especialização .especial1 h4{
+    margin: 30px 0px 0px;
+    font-weight: 100;
+    
+}
+
+          /*tabela*/
+
+
+
+
+.tabela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}   
+
+.tabela p{
+    font-size: 15px;
+    margin: 15px 0px ;
+}
+.tabela h4 {
+    color: rgba(32, 36, 36, 0.877);;
+}
+
+
+.tabela table{
+    display: table;
+    height: 50px;
+    width: 715px;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+.tabela tr:hover td{
+    background-color:rgba(50, 207, 207, 0.877);
+    color: #1c1f1f;
+}
+
+.tabela td{
+    background-color: #dbe0e0;
+    border-radius: 4px;
+}
+.tabela table th {
+    background-color: rgba(50, 207, 207, 0.877);
+    color: #1c2929;
+}
+
+.tabela tfoot td{
+    background-color: #8ec4c9;
+}
+
+/*----------------Pgina contato-----------------*/
+
+
+.content04 {
+    background-color: white;
+    min-height: 700px;
+    padding: 20px;
+}
+
+.content04 h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+.content04 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+
+
+.endereço{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+
+.contatos {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    
+    margin: 5px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-01 {
+    display: flex;
+    margin: 0px ;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: -34px;
+}
+.cell {
+    font-size: small;
+    margin: 0px ;
+}
+.cell-01 {
+    display: flex;
+    align-items: center;
+    font-size: small;
+    margin: 0px ;
+}
+
+.cell-02 {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+
+}
+
+
+
+.img01 {
+    display: flex;
+    
+}
+/*
+.contatos15 {
+    display: flex;
+    width: 500px;
+    height: 400px;
+    border: 1px solid black;
+   
+}
+*/
+.img-fundo form{
+    display: flex;
+    flex-direction: column;
+    height: 422px;
+    width: 365px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: rgb(65, 148, 225);
+    border-radius: 10px;
+    
+}
+
+.img-fundo {
+    display: flex;
+}
+
+#legenda {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.form-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form-button button {
+    border-radius: 7px;
+    border: 1px solid #335a5a;
+}
+.form-button button:hover{
+    background-color: #43e2e29c;
+    color: #dbe0e0;
+    transition: all 0.8s;
+    
+    
+}
